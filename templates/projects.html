@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+<!--    <meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1">-->
+    <meta charset="utf-8">
+
+    <title>Zachary McDaniel</title>
+	
+	<link rel="stylesheet" type="text/css" href="../static/css/index.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/layout.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css"> 
+
+  </head>
+  <body>
+
+    <section>
+      <header>
+        <!-- fixed-top makes the navbar stick to the top of the screen as the user is scrolling -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+			   <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="experiences.html">Experience</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    </section>
+
+  <main>
+    <!-- *************************************
+      Jumbotron Section
+    -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container-fluid">
+        <h1>Zachary McDaniel</h1>
+		</br>
+        <h3> Projects <h3>
+      </div>
+    </div>
+
+
+	<!-- *************************************
+	Project Info
+	-->
+	<div class="container"> 
+	<h3> Business Analytics Honors Thesis</h3>
+	<p> Coming soon! </p>
+	
+	<div class="col-md-4">
+	</br>
+	<a class="btn btn-primary gold" href="https://github.com/ZachMcDaniel/NFL_officials_analysis" target="_blank">View Repository</a>
+	</div>
+	
+	<div>
+	</br>
+	</div>
+
+	<h3> Iowa Government COVID-19 Expenditure Analysis - 2020</h3>
+	<p> Using data provided by the state of Iowa that reports pandemic recovery state expenditures, this project identifies which state departments require Coronavirus relief funds in order to continue to operate effectively.</p>
+	<p>This project was completed using r for exploratory analysis and rattle for creating a predictive model. </p>
+	
+	<div class="col-md-4">
+	</br>
+	<a class="btn btn-primary gold" href="../static/documents/COVID_Report_F20.pdf" target="_blank">View Report</a>
+	</div>
+	<div class="col-md-4">
+	</br>
+	<a class="btn btn-primary gold" href="https://github.com/ZachMcDaniel/IowaGov_COVID-19_Expense_Analysis" target="_blank">View Repository</a>
+	</div>
+	
+	<div>
+	</br>
+	</div>
+	
+	<h3> NFL Playoff Simulation - 2020</h3>
+	<p>In this project, my team and I created an NFL playoff simulation using python. We were inspired by the lack of sports due to the global pandemic to create a way for users to satiate their sports needs.</p>
+	<p>We first used the beatiful soup package to scrape NFL rankings from online into a dictionary. Then weights were assigned to each team based on their rank and a formula was created to use these weights in our simulation. Next, we used nested loops to pit each selected team against each other in a single elimination playoff.</p>
+	<p>When running the simulation,the user is prompted with the option to select any 16 teams from the NFL. Once all teams are selected the simulation runs and gives updates on what teams advanced through each round until a winner is decided.</p>
+	<img src="../static/images/NFL_sim_1.png" alt="Prompt">
+	<hr>
+	<img src="../static/images/NFL_sim_2.png" alt="Result">
+	<div class="col-md-4">
+	</br>
+	<a class="btn btn-primary gold" href="https://github.com/ZachMcDaniel/NFL-Playoff-Simulation" target="_blank">View Repository</a>
+	</div>
+	
+	<div>
+	</br>
+	</div>
+	
+	<h3> CEO Pay Ratio Analysis -2020</h3>
+	<p> In this project, my team created a Oracle Apex application housing data on S&P 500 CEO's and their pay ratios. We analyzed this data by writing SQL queries and building a interactive dashboard to display key information.</p>
+	
+	<div class="col-md-4">
+	</br>
+	<a class="btn btn-primary gold" href="../static/documents/CEOpayratio.pdf" target="_blank">View Report</a>
+	</div>
+	
+	<div>
+	</br>
+	</div>
+	
+	<h3> Iowa City Traffic Fatality Analysis -2019</h3>
+	<p>In this project, I used government data on vehicle accidents in the state of Iowa to identify key conditions that resulted in fatal or serious accidents in Iowa City.</p>
+	<p>I first began by identifying key factors and then cleaned the data so that it best suited my needs. I then normalized my data in Excel and created pivot tables and bar plots to better visualize my data. Next, I conducted tests of independece to find the correlation between the conditions of the accident and the resulting injuries.</p>
+	<div class="row">
+	<img src="../static/images/Traffic_1.png" alt="Frequency Graph" class="fleft">
+	</div>
+	<p>Conclusions:</p>
+	<p>There are a higher amount of crashes occuring in the summer months when school is out of session and these crashes have a higher probability of resulting in serious injury.</p>
+	<p>Accidents on snowy roads are much less likely to result in injury, but accidents on wet roads are more likely to result in injury. </p>
+	<p>Drinking and driving is most likely to result in a car crash injury during the early morning hours of the day </p>
+
+
+	
+	
+
+	
+ 
+	</div>
+	
+	
+  </main>
+
+
+
+  <!-- *************************************
+    Footer Section
+  -->
+  <footer class="footer">
+    <h5> Get in touch </h5>
+    <ul>
+	  <a href="mailto:zachary-mcdaniel@uiowa.edu"><li>Email</li></a>
+	  <li class="customclass"> | </li>
+	  <a  href="https://github.com/ZachMcDaniel"><li>GitHub</li></a>
+	  <li class="customclass"> | </li>
+	  <a  href="https://linkedin.com/in/zachary-mcdaniel"><li>LinkedIn</li></a>
+    </ul>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
